@@ -1,0 +1,170 @@
+{
+ "measured_at": "2026-10-17T11:45:17.031122+00:00",
+ "providers": [
+  {
+   "provider": "groq",
+   "model": "openai/gpt-oss-20b",
+   "base": "https://api.groq.com/openai/v1",
+   "list": {
+    "status": 200,
+    "ttfb_s": 0.22,
+    "limit_headers": {},
+    "wall_s": 0.226,
+    "models_count": 11
+   },
+   "chat": {
+    "status": 200,
+    "ttfb_s": 0.381,
+    "limit_headers": {
+     "x-ratelimit-limit-requests": "1000",
+     "x-ratelimit-limit-tokens": "8000",
+     "x-ratelimit-remaining-requests": "999",
+     "x-ratelimit-remaining-tokens": "7902",
+     "x-ratelimit-reset-requests": "1m26.4s",
+     "x-ratelimit-reset-tokens": "735ms"
+    },
+    "wall_s": 0.415,
+    "ttft_s": null,
+    "text": ""
+   }
+  },
+  {
+   "provider": "google",
+   "model": "gemini-3.5-flash-lite",
+   "base": "https://generativelanguage.googleapis.com/v1beta/openai",
+   "list": {
+    "status": 200,
+    "ttfb_s": 0.125,
+    "limit_headers": {},
+    "wall_s": 0.127,
+    "models_count": 63
+   },
+   "chat": {
+    "status": 200,
+    "ttfb_s": 0.827,
+    "limit_headers": {},
+    "wall_s": 0.829,
+    "ttft_s": 0.827,
+    "text": "Привет!"
+   }
+  },
+  {
+   "provider": "zai",
+   "model": "glm-4.5-flash",
+   "base": "https://api.z.ai/api/paas/v4",
+   "chat": {
+    "status": 200,
+    "ttfb_s": 1.164,
+    "limit_headers": {},
+    "wall_s": 1.165,
+    "ttft_s": null,
+    "text": ""
+   }
+  },
+  {
+   "provider": "nvidia",
+   "model": "stepfun-ai/step-5-preview",
+   "base": "https://integrate.api.nvidia.com/v1",
+   "list": {
+    "status": 200,
+    "ttfb_s": 0.109,
+    "limit_headers": {},
+    "wall_s": 0.11,
+    "models_count": 81
+   },
+   "chat": {
+    "status": 200,
+    "ttfb_s": 0.25,
+    "limit_headers": {},
+    "wall_s": 0.681,
+    "ttft_s": 0.401,
+    "text": "Пользователь просит сказать \"привет\". Это простой запрос на приветствие"
+   }
+  },
+  {
+   "provider": "openrouter",
+   "model": "nvidia/nemotron-3-super-120b-a12b:free",
+   "base": "https://openrouter.ai/api/v1",
+   "list": {
+    "status": 200,
+    "ttfb_s": 0.242,
+    "limit_headers": {},
+    "wall_s": 0.243
+   },
+   "chat": {
+    "status": 200,
+    "ttfb_s": 0.496,
+    "limit_headers": {},
+    "wall_s": 1.438,
+    "ttft_s": null,
+    "text": ""
+   }
+  },
+  {
+   "provider": "kilo",
+   "model": "nvidia/nemotron-3-super-120b-a12b:free",
+   "base": "https://api.kilo.ai/api/gateway",
+   "list": {
+    "status": 200,
+    "ttfb_s": 0.314,
+    "limit_headers": {},
+    "wall_s": 0.334,
+    "models_count": 401
+   },
+   "chat": {
+    "status": 200,
+    "ttfb_s": 0.854,
+    "limit_headers": {},
+    "wall_s": 1.213,
+    "ttft_s": null,
+    "text": ""
+   }
+  },
+  {
+   "provider": "ovh",
+   "model": "Qwen3.8-27B",
+   "base": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
+   "list": {
+    "status": 200,
+    "ttfb_s": 0.16,
+    "limit_headers": {},
+    "wall_s": 0.161,
+    "models_count": 22
+   },
+   "chat": {
+    "status": 200,
+    "ttfb_s": 0.097,
+    "limit_headers": {
+     "ratelimit-reset": "36",
+     "x-ratelimit-remaining-minute": "1",
+     "x-ratelimit-limit-minute": "2",
+     "ratelimit-remaining": "1",
+     "ratelimit-limit": "2"
+    },
+    "wall_s": 0.603,
+    "ttft_s": null,
+    "text": ""
+   }
+  },
+  {
+   "provider": "ollama",
+   "model": "beam",
+   "base": "https://ollama.com",
+   "list": {
+    "status": 200,
+    "ttfb_s": 0.249,
+    "limit_headers": {},
+    "wall_s": 0.249,
+    "models_count": 21
+   },
+   "chat": {
+    "status": 200,
+    "ttfb_s": 0.428,
+    "limit_headers": {},
+    "wall_s": 0.509,
+    "ttft_s": null,
+    "text": ""
+   }
+  }
+ ]
+}
